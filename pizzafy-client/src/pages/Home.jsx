@@ -10,13 +10,13 @@ function Home(){
         <>
         <section class="block">
             <div class="container">
-                <h1 class="title">Добро пожаловать в Pizzafy!</h1>
+                <h1 class="title">Добро пожаловать в SuSHii!</h1>
                 <div class="stories-list">
                     <img src={slideOne} alt="1" />
-                    <img src={slideTwo}  alt="2" />
+                    <img src={slideFour}  alt="2" />
                     <img src={slideThree}  alt="3" />
                     <img src={slideFour}  alt="4" />
-                    <img src={slideFive}  alt="5" />
+                    <img src={slideOne}  alt="5" />
                 </div>
             </div>
         </section>

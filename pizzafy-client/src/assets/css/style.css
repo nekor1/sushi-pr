@@ -14,8 +14,9 @@ a {
     --dark: #3b3b3b;
     --primary: #0079FF;
     --success: #00DFA2;
-    --warning: #ffc009;
+    --warning: #310505;
     --danger: #FF0060;
+    --bob: #701111;
 }
 body {
     background-color: var(--secondary);
@@ -26,7 +27,7 @@ button {
     text-decoration: none;
 }
 .header {
-    background-color: var(--light);
+    background-color: var(--dark);
     width: 100%;
     padding: 10px 0;
     border: 1px solid var(--secondary);
@@ -54,17 +55,17 @@ button {
     color: var(--primary);
 }
 .logo {
-    background-color: var(--primary);
-    padding: 10px 15px;
+    background-color: var(--warning);
+    padding: 1px 5px;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    border-radius: 30px;
+    gap: 1px;
+    border-radius: 50px;
 }
 .logo img {
-    width: 32px;
+    width: 70px;
 }
 .logo-text {
     color: var(--light);
@@ -75,8 +76,8 @@ button {
     opacity: 0.4;
     transition: 0.3s ease-in-out;
     cursor: pointer;
-    background-color: var(--warning);
-    color: var(--light);
+    background-color: var(--bob);
+    color: var(--secondary);
     padding: 10px 15px;
     border-radius: 30px;
 }
